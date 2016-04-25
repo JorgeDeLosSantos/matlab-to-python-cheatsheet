@@ -21,9 +21,9 @@
 
 <!-- /MarkdownTOC -->
 
-- [Getting started]("/#getting-started")
-    - What do we need ?
-    - Important
+- [Getting started](#getting-started)
+    - [What do we need ?](#what-do-we-need-)
+    - [Important](#important)
 - Language fundamentals
     - Variables
     - Operators
@@ -38,6 +38,8 @@
     - Functions
         - Creating a function
 - References
+
+
 
 ## Getting started
 
