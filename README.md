@@ -1,4 +1,25 @@
 # MATLAB to Python cheatsheet
+<!-- MarkdownTOC depth=4 -->
+
+- Getting started
+    - What do we need ?
+    - Important
+- Language fundamentals
+    - Variables
+    - Operators
+        - Arithmetic operators
+        - Relational operators
+        - Logical operators
+    - Control flow
+        - if-else if-else
+        - For loop
+        - While loop
+        - Try - Catch
+    - Functions
+        - Creating a function
+- References
+
+<!-- /MarkdownTOC -->
 
 ## Getting started
 
@@ -163,7 +184,55 @@ else:
 
 #### For loop
 
+```matlab
+% for loop
+for i = 1:10
+    disp(i)
+end
+```
+
+```python
+# for loop
+for i in range(1,11):
+    print(i)
+```
+
 #### While loop
+
+```matlab
+% while loop
+a = 1
+while a < 10
+    disp(a);
+    a = a + 1;
+end
+```
+
+```python
+# while loop
+a = 1
+while a < 10:
+    print(a)
+     a += 1
+```
+
+#### Try - Catch
+
+```matlab
+try
+    % Do something ...
+catch err
+    % On failure
+end
+```
+
+```python
+try:
+    % Do something
+except Exception:
+    % On failure
+end
+```
 
 
 ### Functions
@@ -182,7 +251,7 @@ end
 ```
 
 ```python
-def MyFun():
+def MyFun(arg1, arg2, ...):
     # Code here ...
     return out1, out2, ...
 ```
