@@ -1,2 +1,9 @@
-# matlab-to-python-cheatsheet
-A MATLAB to Python cheatsheet
+# MATLAB to Python cheatsheet
+
+## Variables
+
+|MATLAB|Python|
+|:-------------:|:---------------:|
+| ```matlab     | ```python
+| a = 10        | b = 10
+| ```           | ``` 
