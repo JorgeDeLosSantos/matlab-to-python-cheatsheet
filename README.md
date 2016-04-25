@@ -1,29 +1,45 @@
 # MATLAB to Python cheatsheet
 
+<!-- ==================== TOC using MarkdownTOC Sublime-Text plugin ===================== -->
 <!-- MarkdownTOC depth=3 -->
 
 - Getting started
-    - What do we need ?
+    - What do we need?
     - Important
 - Language fundamentals
-    - Variables
+    - Data types
     - Operators
+    - Variables
     - Control flow
     - Functions
 - Matrices
+    - Create matrices
+    - Basic operations
+    - Element-by-element operations
+    - Indexing
+    - Concatenation
+    - Shape manipulation
 - Plotting
     - Lines
+    - Grid and labels
     - Bars
     - Pie
     - Polar
+    - Polygons
+    - 3D-Curves
+    - Surfaces
 - Object-Oriented Programming
+- Graphical User Interfaces
 - References
 
 <!-- /MarkdownTOC -->
+<!-- ==============================  END TOC ================================= -->
+
+<!-- ============================= PRE ================================= -->
 
 ## Getting started
 
-### What do we need ?
+### What do we need?
 
 Some Python libraries installed to start:
 
@@ -49,35 +65,25 @@ print(x)
 ```
 
 
+<!-- ============================= Contents ================================ -->
+
+
 ## Language fundamentals
 
-### Variables
+### Data types
 
-Assign variables:
+#### Numeric types
 
-```matlab
-% Assign variables
-a = 10;
-```
 
-```python
-# Assign variables
-a = 10
-```
+#### Booleans
 
-Multi assign:
 
-```matlab
-% Unsupported
-```
+#### Strings
 
-```python
-# Multi assign
-a, b, c = 10, 20, 30
-# a = 10 
-# b = 20
-# c = 30
-```
+
+#### Arrays
+
+
 
 ### Operators
 
@@ -140,6 +146,35 @@ a and b     # Element-wise logical AND
 a or b      # Element-wise logical OR
 a ^ b       # Logical EXCLUSIVE OR
 not a       # Logical NOT
+```
+
+
+### Variables
+
+Assign variables:
+
+```matlab
+% Assign variables
+a = 10;
+```
+
+```python
+# Assign variables
+a = 10
+```
+
+Multi assign:
+
+```matlab
+% Unsupported
+```
+
+```python
+# Multi assign
+a, b, c = 10, 20, 30
+# a = 10 
+# b = 20
+# c = 30
 ```
 
 
@@ -273,11 +308,51 @@ A simple example:
 
 ## Matrices
 
+### Create matrices
+
+### Basic operations
+
+### Element-by-element operations
+
+### Indexing
+
+### Concatenation
+
+### Shape manipulation
+
+
 
 
 ## Plotting
 
+For all following Python codes are assumed that have been imported Numpy and Matplotlib as follows:
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
 ### Lines
+
+```matlab
+x = linspace(0,2*pi);
+y = cos(x)
+plot(x, y)
+```
+
+```python
+x = np.linspace(0,2*np.pi)
+y = np.cos(x)
+
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.plot(x, y)
+```
+
+![](src/plotting/line_01.png)
+
+
+### Grid and labels
 
 ### Bars
 
@@ -285,10 +360,23 @@ A simple example:
 
 ### Polar
 
+### Polygons
+
+### 3D-Curves
+
+### Surfaces
+
+
 
 
 <!--  OOP  -->
 ## Object-Oriented Programming
+
+
+
+
+## Graphical User Interfaces
+
 
 
 
