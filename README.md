@@ -11,6 +11,22 @@ Some Python libraries installed to start:
 * Matplotlib
 * SymPy
 
+### Important
+
+The general structure of these notes is:
+
+```matlab
+% Some MATLAB code
+x = 10;
+disp(x);
+```
+
+```python
+# followed by a equivalent/similar Python code
+x = 10
+print(x)
+```
+
 
 ## Language fundamentals
 
@@ -26,6 +42,20 @@ a = 10;
 ```python
 # Assign variables
 a = 10
+```
+
+Multi assign:
+
+```matlab
+% Unsupported
+```
+
+```python
+# Multi assign
+a, b, c = 10, 20, 30
+# a = 10 
+# b = 20
+# c = 30
 ```
 
 ### Arithmetic operators
@@ -61,12 +91,12 @@ a ~= b  % Not equal
 ```
 
 ```python
-a == b  % Equal
-a > b   % Greater than
-a < b   % Less than
-a >= b  % Greater than or equal
-a <= b  % Less than or equal
-a != b  % Not equal
+a == b  # Equal
+a > b   # Greater than
+a < b   # Less than
+a >= b  # Greater than or equal
+a <= b  # Less than or equal
+a != b  # Not equal
 ```
 
 ### Logical operators
