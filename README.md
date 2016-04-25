@@ -118,3 +118,8 @@ a or b      # Element-wise logical OR
 a ^ b       # Logical EXCLUSIVE OR
 not a       # Logical NOT
 ```
+
+
+## References
+
+1. [http://mathesaurus.sourceforge.net/matlab-numpy.html](http://mathesaurus.sourceforge.net/matlab-numpy.html)
