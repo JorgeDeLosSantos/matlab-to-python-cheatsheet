@@ -1,5 +1,6 @@
 # MATLAB to Python cheatsheet
-<!-- MarkdownTOC depth=4 -->
+
+<!-- MarkdownTOC depth=3 -->
 
 - Getting started
     - What do we need ?
@@ -7,39 +8,18 @@
 - Language fundamentals
     - Variables
     - Operators
-        - Arithmetic operators
-        - Relational operators
-        - Logical operators
     - Control flow
-        - if-else if-else
-        - For loop
-        - While loop
-        - Try - Catch
     - Functions
-        - Creating a function
+- Matrices
+- Plotting
+    - Lines
+    - Bars
+    - Pie
+    - Polar
+- Object-Oriented Programming
 - References
 
 <!-- /MarkdownTOC -->
-
-- [Getting started](#getting-started)
-    - [What do we need ?](#what-do-we-need-)
-    - [Important](#important)
-- Language fundamentals
-    - Variables
-    - Operators
-        - Arithmetic operators
-        - Relational operators
-        - Logical operators
-    - Control flow
-        - if-else if-else
-        - For loop
-        - While loop
-        - Try - Catch
-    - Functions
-        - Creating a function
-- References
-
-
 
 ## Getting started
 
@@ -291,8 +271,31 @@ out1, out2, ... = MyFun(arg1, arg2, ...)
 A simple example:
 
 
+## Matrices
+
+
+
+## Plotting
+
+### Lines
+
+### Bars
+
+### Pie
+
+### Polar
+
+
+
+<!--  OOP  -->
+## Object-Oriented Programming
+
 
 
 ## References
 
 1. [http://mathesaurus.sourceforge.net/matlab-numpy.html](http://mathesaurus.sourceforge.net/matlab-numpy.html)
+2. [https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html](https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html)
+2. [http://www.mathworks.com/help/matlab/](http://www.mathworks.com/help/matlab/)
+3. [https://docs.python.org/2/reference/index.html](https://docs.python.org/2/reference/index.html)
+4. [https://docs.scipy.org/doc/numpy-dev/user/quickstart.html](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
