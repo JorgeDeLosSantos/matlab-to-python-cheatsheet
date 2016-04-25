@@ -58,7 +58,9 @@ a, b, c = 10, 20, 30
 # c = 30
 ```
 
-### Arithmetic operators
+### Operators
+
+#### Arithmetic operators
 
 ```matlab
 % MATLAB
@@ -79,7 +81,7 @@ a * b # Multiplication
 a / b # Division
 ```
 
-### Relational operators
+#### Relational operators
 
 ```matlab
 a == b  % Equal
@@ -99,7 +101,7 @@ a <= b  # Less than or equal
 a != b  # Not equal
 ```
 
-### Logical operators
+#### Logical operators
 
 ```matlab
 a && b      % Short-circuit logical AND
@@ -118,6 +120,88 @@ a or b      # Element-wise logical OR
 a ^ b       # Logical EXCLUSIVE OR
 not a       # Logical NOT
 ```
+
+
+### Control flow
+
+#### if-else if-else
+
+Only `if`:
+
+```matlab
+% Using if
+a = 11
+if a > 10
+    disp('a is greater than 10');
+end
+```
+
+```python
+a = 11
+if a > 10:
+    print("a is greater than 10")
+```
+
+`if-else` structure:
+
+```matlab
+n = 1
+if n > 0
+    disp('n is positive');
+else
+    disp('n is negative or zero');
+end
+```
+
+```python
+n = 1
+if n > 0:
+    print('n is positive')
+else:
+    print('n is negative or zero')
+```
+
+#### For loop
+
+#### While loop
+
+
+### Functions
+
+#### Creating a function
+
+General syntax:
+
+```matlab
+function [out1, out2,...] = MyFun(arg1, arg2, ...)
+% Code here...
+% out1 = some1
+% out2 = some2
+% ...
+end
+```
+
+```python
+def MyFun():
+    # Code here ...
+    return out1, out2, ...
+```
+
+Calling functions:
+
+```matlab
+% Calling MyFun
+[out1, out2, ...] = MyFun(arg1, arg2, ...)
+```
+
+```python
+# Calling MyFun
+out1, out2, ... = MyFun(arg1, arg2, ...)
+```
+
+A simple example:
+
+
 
 
 ## References
