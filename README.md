@@ -21,7 +21,7 @@
 
 <!-- /MarkdownTOC -->
 
-- [Getting started]("#getting-started")
+- [Getting started]("/#getting-started")
     - What do we need ?
     - Important
 - Language fundamentals
