@@ -21,6 +21,24 @@
 
 <!-- /MarkdownTOC -->
 
+- [Getting started]("#getting-started")
+    - What do we need ?
+    - Important
+- Language fundamentals
+    - Variables
+    - Operators
+        - Arithmetic operators
+        - Relational operators
+        - Logical operators
+    - Control flow
+        - if-else if-else
+        - For loop
+        - While loop
+        - Try - Catch
+    - Functions
+        - Creating a function
+- References
+
 ## Getting started
 
 ### What do we need ?
