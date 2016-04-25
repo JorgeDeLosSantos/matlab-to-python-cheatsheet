@@ -349,7 +349,7 @@ ax = fig.add_subplot(111)
 ax.plot(x, y)
 ```
 
-![](src/plotting/line_01.png)
+<img src="src/plotting/line_01.png" width="50%">
 
 
 ### Grid and labels

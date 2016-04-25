@@ -27,6 +27,7 @@ def plot_line_02():
     plt.close()
 
 
+
 def plot_bar():
     print 12
 
