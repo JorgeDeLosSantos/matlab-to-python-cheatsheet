@@ -29,6 +29,7 @@
     - 3D-Curves
     - Surfaces
 - Object-Oriented Programming
+    - Defining class
 - Graphical User Interfaces
     - Basic frame
     - Adding some controls
@@ -264,9 +265,9 @@ end
 
 ```python
 try:
-    % Do something
+    # Do something
 except Exception:
-    % On failure
+    # On failure
 end
 ```
 
@@ -306,6 +307,22 @@ out1, out2, ... = MyFun(arg1, arg2, ...)
 
 A simple example:
 
+```matlab
+function r = iseven(n)
+if ((-1)^n) == 1
+    r = True;
+else
+    r = False;
+end
+end
+```
+
+```python
+def iseven(n):
+    if ((-1)**n)==1:
+        return True
+    return False
+```
 
 ## Matrices
 
@@ -353,6 +370,7 @@ ax.plot(x, y)
 <img src="src/plotting/line_01.png" width="50%">
 
 
+
 ### Grid and labels
 
 ### Bars
@@ -369,12 +387,50 @@ ax.plot(x, y)
 
 
 
-
 <!--  OOP  -->
 ## Object-Oriented Programming
 
+### Defining class
 
+General syntax:
 
+```matlab
+classdef MyClass
+% Help of class
+% 
+    properties
+        % class properties
+    end
+
+    methods
+        function obj = MyClass(args)
+            % Constructor
+        end
+
+        % other methods
+        function OneMethod(obj,one_args)
+            % Method ...
+        end
+
+        function OtherMethod(obj,other_args)
+            % Method ...
+        end
+    end
+end
+```
+
+```python
+class MyClass():
+    def __init__(self,args):
+        # Constructor
+        # Class properties are defined here
+
+    def OneMethod(self,one_args):
+        # Method
+
+    def OtherMethod(self,other_args):
+        # Method
+```
 
 ## Graphical User Interfaces
 
