@@ -11,6 +11,7 @@ Some Python libraries installed to start:
 * [Matplotlib](http://matplotlib.org)
 * [SymPy](http://sympy.org)
 
+
 ### Important
 
 The general structure of these notes is:
