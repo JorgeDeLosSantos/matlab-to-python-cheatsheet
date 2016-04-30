@@ -6,10 +6,10 @@
 
 Some Python libraries installed to start:
 
-* NumPy
-* SciPy
-* Matplotlib
-* SymPy
+* [NumPy](http://numpy.org)
+* [SciPy](http://scipy.org)
+* [Matplotlib](http://matplotlib.org)
+* [SymPy](http://sympy.org)
 
 ### Important
 
