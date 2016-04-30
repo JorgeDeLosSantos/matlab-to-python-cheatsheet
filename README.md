@@ -31,11 +31,11 @@ print(x)
 
 ## Contents
 
-![Language Fundamentals](src/fundamentals.md)
-![Matrices](src/matrices.md)
-![Plotting](src/plotting.md)
-![Object Oriented Programming](src/oop.md)
-![Graphical User Interfaces](src/gui.md)
+* [Language Fundamentals](src/fundamentals.md)
+* [Matrices](src/matrices.md)
+* [Plotting](src/plotting.md)
+* [Object Oriented Programming](src/oop.md)
+* [Graphical User Interfaces](src/gui.md)
 
 ---
 
